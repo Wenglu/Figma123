@@ -1,0 +1,733 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+main
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 1500px;
+    overflow-x: hidden;
+}
+.tlo
+{
+    width: 1440px;
+    height: 100vh;
+}
+nav
+{
+    width:1440px ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+.zarejest
+{
+    height: 50px;
+    width: 176px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 0;
+    background-color: rgba(135, 7, 235, 0.79);
+}
+.logo
+{
+    height: 150px;
+    display: none;
+}
+.logo2
+{
+    height: 200px;
+}
+.menu,.sign
+{
+    display: none;
+    width: 50px;
+}
+.hide
+{
+    display: none;
+}
+nav ul
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width:20vw ;
+    justify-content:space-evenly;
+    padding-right: 100px;
+}
+nav button
+{
+    height: 50px;
+    width: 176px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.tot
+{
+    max-width: 1440px;
+    padding: 0;
+    margin: 0;
+    height: 850px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 200;
+
+}
+.tot img
+{
+    position:absolute;
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+    height: 850px;
+    z-index: -1;
+}
+.napisy h1
+{
+    font-size: 120px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+
+}
+.napisy h3
+{
+    font-size: 50px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 200;
+    color: rgb(246, 251, 255);
+}
+
+.napisy
+{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.gogle
+{
+    position: relative;
+    width: 680px;
+    top: 150px;
+}
+.gogle img
+{
+    width: 620px;
+    height: auto;
+
+}
+.gosc
+{
+    border-radius: 30px;
+    margin-top: 150px;
+    width: 1300px;
+    height: 400px;
+    background-image: linear-gradient(160deg, rgba(2, 194, 255, 1),rgba(178, 16, 255, 0.47) 70%);
+    display: flex;
+    justify-content: space-between;
+}
+.tekst
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    padding-left: 50px;
+    padding-bottom: 30px; 
+}
+.tekst h2
+{
+    width: 450px;
+    font-size: 60px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+
+}
+.tekst p
+{
+    font-size: 30px;
+    text-align: center;
+    width: 700px;
+    font-family: 'Karla', sans-serif;
+    color: aliceblue;
+    font-weight: 300;
+}
+.butony
+{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.kup,.zobacz
+{
+    height: 50px;
+    width: 176px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 0;
+}
+.kup
+{
+    background-color: rgba(135, 7, 235, 0.79);
+    color: aliceblue;
+}
+.chlop
+{
+    position: relative;
+    height: 400px;
+    width: auto;
+}
+.klocki
+{
+    width: 1000px;
+    height: 330px;
+    display: flex;
+    padding-top: 170px;
+    justify-content: space-between;
+}
+.klocki img
+{
+    width: 90px;
+    height: 90px;
+}
+.klocek1,.klocek2,.klocek3
+{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 265px;
+    height: 280px;
+    background-color: rgba(254, 239, 255, 1);
+    border-radius: 30px;
+    box-shadow: 0 0 50px 0 rgba(118, 0, 174, 0.25);
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+}
+.klocek2
+{
+    position: relative;
+    top:45px;
+    background-color: rgba(204, 240, 255, 1);
+    box-shadow: 0 0 50px 0 rgba(0, 118, 155, 0.37);
+}
+.klocek1 p,.klocek2 p,.klocek3 p
+{
+    text-align: center;
+    font-size: 20px;
+    width:200px ;
+}
+.baba
+{
+    border-radius: 30px;
+    margin-top: 150px;
+    width: 1300px;
+    height: 400px;
+    background-image: linear-gradient(160deg, rgba(2, 194, 255, 1),rgba(178, 16, 255, 0.47) 70%);
+    display: flex;
+    justify-content: space-between;
+}
+.tekst2
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    /* padding-right: 200px; */
+    left: -100px;
+}
+.tekst2 h2
+{
+    width: 700px;
+    font-size: 60px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-weight: 200;
+    color:aliceblue
+}
+.tekst2 p
+{
+    font-size: 30px;
+    text-align: center;
+    width: 630px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    color:aliceblue
+}
+.butony
+{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Karla', sans-serif;
+}
+.kup,.zobacz
+{
+    height: 50px;
+    width: 176px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.baba123 
+{
+    position: relative;
+    height: 500px;
+    width: auto;
+    bottom: 100px;
+    left: 20px;
+}
+.slajdy
+{
+    width: 1230px;
+    height: 330px;
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+    color: aliceblue;
+    margin-bottom: 100px;
+    /* background-color: violet; */
+    
+    
+}
+.slajdy img
+{
+    position: relative;
+    width: 618px;
+    height: 520px;
+    z-index: -1;
+}
+.zdjecie1,.zdjecie2,.zdjecie3
+{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 385px;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 0 0 50px 0 rgba(118, 0, 174, 0.25);
+    background-image: linear-gradient(0deg,rgb(132, 0, 194),rgba(217, 217, 217, 0.192)40%);
+    border-radius: 30px;
+}
+.blur1,.blur2,.blur3
+{
+    display: none;
+}
+.zdjecie2
+{
+    position: relative;
+    top:45px;
+    box-shadow: 0 0 50px 0 rgba(0, 118, 155, 0.37);
+    background-image: linear-gradient(0deg,rgba(0, 35, 209, 0.712),rgba(217, 217, 217, 0.137)50%);
+}
+.zdjecie1 p,.zdjecie2 p,.zdjecie3 p
+{
+    position: absolute;
+    text-align: center;
+    font-size: 27px;
+    width:250px ;
+    z-index: 1;
+    top: 2970px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+.zdjecie2 p
+{
+    top: 150px;
+}
+.zobacz1
+{
+    position: absolute;
+    top: 300px;
+    background-color: rgba(245, 232, 255, 0.79);
+    height: 50px;
+    width: 176px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 0;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+}
+footer
+{
+    margin-top:150px ;
+    background-color: #370063;
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+.logo-i-inne
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+.logo-i-inne p
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-i-inne ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info ul
+{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 300px;
+    list-style-type: none;
+
+}
+.kontakt
+{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.kontakt ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container
+{
+    background-color: #370063;
+    width: 1000px;
+    height: 450px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.kontakt img
+{
+    width: 40px;
+    height: auto;
+}
+@media screen and (max-width:1600px) 
+{
+    body
+    {
+        display: block;
+    }
+    main
+    {
+        max-width: 1100px;
+    }
+    .tot
+    {
+        max-width: 1600px;
+    }
+}
+@media screen and (max-width:800px) 
+{
+    main
+    {
+        width: 450px;
+        overflow: hidden;
+        max-height: 5000px;
+    }
+    nav ul
+    {
+        width: 200px;
+        margin: 0;
+        padding: 0;
+        padding-top: 10vh;
+    }
+    .tot
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin:0;
+        padding: 0;
+        height: 450px;
+        width: 500px;
+    }
+    .gogle ,.napisy
+    {
+        transform: scale(0.4);
+        margin: 0;
+        padding: 0;
+    }
+    .gogle
+    {
+        position: relative;
+        top: -300px;
+        left: 45px;
+        
+    }
+    .napisy
+    {
+        position: relative;
+        top: 100px;
+        line-height:.1 ;
+    }
+    .tlo,.tot img
+    {
+       width: 450px;
+       height: 400px;
+    }
+    nav ul,.zarejest,.logo2
+    {
+        display: none;
+    }
+    .menu,.sign,.logo
+    {
+        display: block;
+    }
+    .hide
+    {
+        display: flex;
+        justify-content: space-evenly;
+        width: 500px;
+    }
+    .gosc
+    {
+        width: 400px;
+        height: 250px;
+        margin-top: 0;
+    }
+    .tekst
+    {
+        width: 300px;
+    }
+    .tekst h2
+    {
+        font-size: 30px;
+    }
+    .tekst p
+    {
+        font-size: 20px;
+        width: 300px;
+    }
+    .butony
+    {
+    width: 350px;
+
+    }
+    .kup,.zobacz
+{
+    width: 146px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 0;
+}
+.chlop
+{
+    display: none;
+}
+.klocki
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    width: 400px;
+}
+.klocek1,.klocek2,.klocek3
+{
+    width:300px;
+    height: 280px;
+    margin-top: 20px;
+}
+.klocek2
+{
+    position: relative;
+    top:0px;
+    width: 360px;
+}
+.klocek1 p,.klocek2 p,.klocek3 p
+{
+    text-align: center;
+    font-size: 25px;
+    width:200px ;
+}
+.baba
+{
+    margin-top: 150px;
+    width: 400px;
+    height: 300px;
+}
+.tekst2
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    left: 0px;
+}
+.tekst2 h2
+{
+    width: 350px;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-weight: 200;
+    color:aliceblue
+}
+.tekst2 p
+{
+    font-size: 25px;
+    text-align: center;
+    width: 300px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    color:aliceblue
+}
+.baba123 
+{
+    display: none;
+}
+.slajdy
+{
+    width: 400px;
+    height: 330px;
+    display: flex;
+    margin-top: 20px;
+    padding-top: 0px;
+    flex-direction: column;
+    margin-bottom: 350px;  
+    color: black; 
+}
+.slajdy img
+{
+    width: 300px;
+    height: 250px;
+}
+.zdjecie1,.zdjecie2,.zdjecie3
+{
+    box-shadow: 0 0 0px 0 rgba(0, 0, 174, 0);
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+    background-color: rgba(0,0,0,0);
+    position: relative;
+    left: -80px;
+}
+.blur1,.blur2,.blur3
+{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    filter: blur(10px);
+    filter: s;
+    border-radius: 50%;
+    display: block;
+    background: linear-gradient(0deg, #7ec1ff, #82c3ff), #1681E4;
+    filter: blur(80px);
+    border-radius: 58px;
+    left: 250px;
+    z-index: -4;
+}
+.blur2
+{
+    background: #cd8bff;
+    left: -100px;
+}
+.zdjecie2
+{
+    position: relative;
+    left:100px;
+    top:0px;
+}
+.zobacz1
+{
+    display: none;
+}
+.zdjecie1 p,.zdjecie2 p,.zdjecie3 p
+{
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    width:200px ;
+    z-index: 1;
+    top: 50px;
+    left:280px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+.zdjecie2 p
+{
+    left: -110px;
+}
+footer
+{
+    height: 350px;
+    min-width: 500px;
+}
+.logo-i-inne
+{
+    width: 200px;
+    transform: scale(0.7);
+    position: relative;
+    top: -30px;
+}
+.info
+{
+    width: 200px;
+}
+.info ul
+{
+    width: 200px;
+}
+.container
+{
+    background-color: #370063;
+    width: 400px;
+    height: 150px;
+}
+.info ul
+{
+    font-size: 15px;
+    height: 400px;
+}
+.kontakt ul
+{
+    width: 300px;
+}
+}
